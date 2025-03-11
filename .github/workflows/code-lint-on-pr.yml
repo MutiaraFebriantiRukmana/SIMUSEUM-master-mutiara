@@ -36,4 +36,4 @@ jobs:
         run: phpstan analyse --memory-limit=1G || true
 
       - name: Run Laravel Pint (Code Formatting)
-        run: pint --test || true
+        run: pint --test || true
